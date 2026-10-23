@@ -162,7 +162,7 @@ export type MenuTab = 'docs' | 'coach' | 'journal' | 'wardrobe' | 'debug'
 
 declare module 'claude-code' {
   interface PluginState {
-    'attention-band': {
+    'clawdagotchi': {
       attention: Attention
       activity: Activity
       isAsleep: boolean

@@ -17,7 +17,7 @@ type Surface = (typeof SURFACES)[number]
 
 const band = (surface: Surface) =>
   ({
-    plugin: 'attention-band',
+    plugin: 'clawdagotchi',
     surface,
     component: 'AbovePrompt',
     props: {
@@ -32,7 +32,7 @@ const band = (surface: Surface) =>
 
 const menu = (surface: Surface) =>
   ({
-    plugin: 'attention-band',
+    plugin: 'clawdagotchi',
     surface,
     component: 'Pane',
     requestId: 'clawd',
@@ -1738,7 +1738,7 @@ test('every tip reads like a person wrote it: straight quotes, no em dashes, no 
 })
 
 const teachPane = {
-  plugin: 'attention-band',
+  plugin: 'clawdagotchi',
   surface: 'desktop',
   component: 'Pane',
   requestId: 'teach',

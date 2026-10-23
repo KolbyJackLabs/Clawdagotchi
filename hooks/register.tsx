@@ -242,41 +242,41 @@ const SAMPLE_COMMITS: Commit[] = [
   { sha: '22c2c28', message: 'Keep non-JSON metafield values as strings', at: 0 },
 ]
 
-const attention = atom({ plugin: 'attention-band', key: 'attention' } as const, null)
-const activity = atom({ plugin: 'attention-band', key: 'activity' } as const, null)
-const isAsleep = atom({ plugin: 'attention-band', key: 'isAsleep' } as const, false)
-const isHidden = atom({ plugin: 'attention-band', key: 'isHidden' } as const, false)
-const stats = atom({ plugin: 'attention-band', key: 'stats' } as const, DEFAULT_STATS)
-const friends = atom({ plugin: 'attention-band', key: 'friends' } as const, [])
-const shown = atom({ plugin: 'attention-band', key: 'shown' } as const, FIRST_SHOWN)
-const phase = atom({ plugin: 'attention-band', key: 'phase' } as const, 'day')
-const season = atom({ plugin: 'attention-band', key: 'season' } as const, 'autumn')
-const preview = atom({ plugin: 'attention-band', key: 'preview' } as const, NO_PREVIEW)
-const menuTab = atom({ plugin: 'attention-band', key: 'menuTab' } as const, 'docs')
-const isCelebrating = atom({ plugin: 'attention-band', key: 'isCelebrating' } as const, false)
-const commits = atom({ plugin: 'attention-band', key: 'commits' } as const, [])
-const partyUntil = atom({ plugin: 'attention-band', key: 'partyUntil' } as const, 0)
-const isMuted = atom({ plugin: 'attention-band', key: 'isMuted' } as const, false)
-const sweeping = atom({ plugin: 'attention-band', key: 'sweeping' } as const, 0)
-const notes = atom({ plugin: 'attention-band', key: 'notes' } as const, [])
-const dropped = atom({ plugin: 'attention-band', key: 'dropped' } as const, null)
-const feeling = atom({ plugin: 'attention-band', key: 'feeling' } as const, null)
-const craft = atom({ plugin: 'attention-band', key: 'craft' } as const, NO_CRAFT)
-const usage = atom({ plugin: 'attention-band', key: 'usage' } as const, NO_USAGE)
-const wantsRewrites = atom({ plugin: 'attention-band', key: 'wantsRewrites' } as const, false)
-const days = atom({ plugin: 'attention-band', key: 'days' } as const, {})
+const attention = atom({ plugin: 'clawdagotchi', key: 'attention' } as const, null)
+const activity = atom({ plugin: 'clawdagotchi', key: 'activity' } as const, null)
+const isAsleep = atom({ plugin: 'clawdagotchi', key: 'isAsleep' } as const, false)
+const isHidden = atom({ plugin: 'clawdagotchi', key: 'isHidden' } as const, false)
+const stats = atom({ plugin: 'clawdagotchi', key: 'stats' } as const, DEFAULT_STATS)
+const friends = atom({ plugin: 'clawdagotchi', key: 'friends' } as const, [])
+const shown = atom({ plugin: 'clawdagotchi', key: 'shown' } as const, FIRST_SHOWN)
+const phase = atom({ plugin: 'clawdagotchi', key: 'phase' } as const, 'day')
+const season = atom({ plugin: 'clawdagotchi', key: 'season' } as const, 'autumn')
+const preview = atom({ plugin: 'clawdagotchi', key: 'preview' } as const, NO_PREVIEW)
+const menuTab = atom({ plugin: 'clawdagotchi', key: 'menuTab' } as const, 'docs')
+const isCelebrating = atom({ plugin: 'clawdagotchi', key: 'isCelebrating' } as const, false)
+const commits = atom({ plugin: 'clawdagotchi', key: 'commits' } as const, [])
+const partyUntil = atom({ plugin: 'clawdagotchi', key: 'partyUntil' } as const, 0)
+const isMuted = atom({ plugin: 'clawdagotchi', key: 'isMuted' } as const, false)
+const sweeping = atom({ plugin: 'clawdagotchi', key: 'sweeping' } as const, 0)
+const notes = atom({ plugin: 'clawdagotchi', key: 'notes' } as const, [])
+const dropped = atom({ plugin: 'clawdagotchi', key: 'dropped' } as const, null)
+const feeling = atom({ plugin: 'clawdagotchi', key: 'feeling' } as const, null)
+const craft = atom({ plugin: 'clawdagotchi', key: 'craft' } as const, NO_CRAFT)
+const usage = atom({ plugin: 'clawdagotchi', key: 'usage' } as const, NO_USAGE)
+const wantsRewrites = atom({ plugin: 'clawdagotchi', key: 'wantsRewrites' } as const, false)
+const days = atom({ plugin: 'clawdagotchi', key: 'days' } as const, {})
 // Whether the band draws the room as stacked layers (the default) or one drawing.
-const drawing = atom({ plugin: 'attention-band', key: 'drawing' } as const, 'images')
-const tip = atom({ plugin: 'attention-band', key: 'tip' } as const, null)
-const wantsTips = atom({ plugin: 'attention-band', key: 'wantsTips' } as const, true)
-const teaching = atom({ plugin: 'attention-band', key: 'teaching' } as const, null)
-const practiced = atom({ plugin: 'attention-band', key: 'practiced' } as const, {})
-const skills = atom({ plugin: 'attention-band', key: 'skills' } as const, [])
-const dirty = atom({ plugin: 'attention-band', key: 'dirty' } as const, 0)
-const needInputs = atom({ plugin: 'attention-band', key: 'needInputs' } as const, { clearAt: 0, newAt: 0, unchecked: 0 })
-const quest = atom({ plugin: 'attention-band', key: 'quest' } as const, null)
-const useFloor = atom({ plugin: 'attention-band', key: 'useFloor' } as const, true)
-const cellPx = atom({ plugin: 'attention-band', key: 'cellPx' } as const, CELL_PX)
+const drawing = atom({ plugin: 'clawdagotchi', key: 'drawing' } as const, 'images')
+const tip = atom({ plugin: 'clawdagotchi', key: 'tip' } as const, null)
+const wantsTips = atom({ plugin: 'clawdagotchi', key: 'wantsTips' } as const, true)
+const teaching = atom({ plugin: 'clawdagotchi', key: 'teaching' } as const, null)
+const practiced = atom({ plugin: 'clawdagotchi', key: 'practiced' } as const, {})
+const skills = atom({ plugin: 'clawdagotchi', key: 'skills' } as const, [])
+const dirty = atom({ plugin: 'clawdagotchi', key: 'dirty' } as const, 0)
+const needInputs = atom({ plugin: 'clawdagotchi', key: 'needInputs' } as const, { clearAt: 0, newAt: 0, unchecked: 0 })
+const quest = atom({ plugin: 'clawdagotchi', key: 'quest' } as const, null)
+const useFloor = atom({ plugin: 'clawdagotchi', key: 'useFloor' } as const, true)
+const cellPx = atom({ plugin: 'clawdagotchi', key: 'cellPx' } as const, CELL_PX)
 
 // Open asks by tool name: a PermissionRequest names the tool, not the call,
 // so the band clears once a call of each asked tool has finished. Module
@@ -478,8 +478,14 @@ async function rest($: EngineInterface) {
   nap = $.clock.after(SLEEP_MS, () => void fallAsleep($))
 }
 
+// Every session shares one pet: a change applies to what the store holds
+// now, not to this session's copy, so sessions never undo each other's
+// turns and XP.
 async function save($: EngineInterface, change: (now: Stats) => Stats) {
-  const next = await update($, stats, change)
+  const kept = (await $.store.get('stats')) as Partial<Stats> | null | undefined
+  const base = kept !== null && kept !== undefined && typeof kept.xp === 'number' ? { ...(await read($, stats)), ...kept } : await read($, stats)
+  const next = change(base)
+  await update($, stats, () => next)
   await $.store.set('stats', next)
 
   return next
