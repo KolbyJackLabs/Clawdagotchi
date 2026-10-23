@@ -1,0 +1,11 @@
+{
+  "name": "kolbyjacklabs",
+  "owner": { "name": "KolbyJackLabs" },
+  "plugins": [
+    {
+      "name": "attention-band",
+      "source": "./",
+      "description": "Clawd, a pet above the prompt who acts out your session and coaches you to get really good at Claude"
+    }
+  ]
+}

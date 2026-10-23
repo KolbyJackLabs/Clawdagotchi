@@ -1,0 +1,6 @@
+{
+  "name": "attention-band",
+  "version": "0.1.0",
+  "description": "A Claude pet above the prompt that acts out what the session is doing, and colors the band while the session waits on you",
+  "types": "./types/index.d.ts"
+}
